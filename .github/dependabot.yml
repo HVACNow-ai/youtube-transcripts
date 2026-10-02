@@ -1,0 +1,11 @@
+# yt-dlp must stay current to follow YouTube changes. Dependabot opens update PRs.
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: weekly
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly

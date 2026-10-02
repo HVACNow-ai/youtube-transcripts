@@ -1,0 +1,19 @@
+# Results
+output/
+
+# Login cookies. NEVER commit these: they give access to your Google account.
+cookies.txt
+*.cookies
+*cookies*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# OS
+.DS_Store
+Thumbs.db
